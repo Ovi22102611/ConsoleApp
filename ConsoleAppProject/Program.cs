@@ -19,14 +19,11 @@ namespace ConsoleAppProject
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
 
-            Console.WriteLine();
-            Console.WriteLine(" =================================================");
-            Console.WriteLine("    BNU CO453 Applications Programming 2022-2023! ");
-            Console.WriteLine(" =================================================");
-            Console.WriteLine();
-
+            
             DistanceConverter converter = new DistanceConverter();
-            //converter.run();
+            converter.MilesToFeet();
+            converter.FeetToMiles();
+            converter.MilesToMetres();
         }
     }
 }
